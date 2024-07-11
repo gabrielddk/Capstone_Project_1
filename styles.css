@@ -1,0 +1,100 @@
+:root{
+    --body-margin: 10px;
+    --color-main: rgb(149, 56, 255);
+    --color-txt-link: rgb(255, 238, 0);
+}
+
+body{
+    margin: var(--body-margin);
+    font-family: Arial;
+    color: white;
+}
+
+.personalNameTitle{
+    color: var(--color-main);
+}
+
+.headerDiv{
+    background-color: var(--color-main);
+    color: var(--color-txt-link);
+    font-weight: bold;
+    text-decoration: double underline white;
+    font-size: 170%;
+    margin: calc(var(--body-margin) * -1);
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.frameDiv{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction:row;
+}
+
+.rounded{
+    background-color: var(--color-main);
+    border-radius: 12%;
+    height: fit-content;
+    width: fit-content;
+    padding: 2%;
+}
+
+.centeredContent{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profileDivParent{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileDiv{
+    width: 8%;
+}
+
+.profileImg{
+    width: 100%;
+    opacity: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+h1{
+    text-align: center;
+}
+
+a:link{
+    color: var(--color-txt-link);
+    text-decoration: none;
+}
+a:visited{
+    color: var(--color-txt-link);
+}
+a:hover{
+    filter: brightness(90%);
+    text-decoration:white double underline;
+}
+a:active{
+    filter: brightness(80%);
+}
+
+.arrow_marker li::marker {
+    content: '‣ ';
+    font-size: 20px;
+}
+
+.arrow_marker li a{
+    font-weight: bold;
+}
+
+ul{
+    padding-inline-start: 15%;
+}
