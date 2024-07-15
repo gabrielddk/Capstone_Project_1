@@ -30,7 +30,6 @@ body{
     width: 100%;
     height: 25%;
     display: flex;
-    flex-direction:row;
 }
 
 .rounded{
@@ -98,3 +97,17 @@ a:active{
 ul{
     padding-inline-start: 15%;
 }
+
+.footerDiv{
+    background-color: var(--color-main);
+    color: var(--color-txt-link);
+    font-weight: bold;
+    text-decoration: double underline white;
+    font-size: 80%;
+    margin: calc(var(--body-margin) * -1);
+    justify-content: center;
+    display: flex;
+align-items: flex-end;
+    margin-bottom: 0px;
+}
+
